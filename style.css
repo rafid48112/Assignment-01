@@ -19,7 +19,7 @@ img {
 .half-width {
   width: 45%;
 }
-.first-div {
+.flex-div {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -43,11 +43,12 @@ img {
 .main-para {
   font-size: 18px;
   margin: 1rem 0 0 0;
+  color: #3e3e3e;
 }
 .btn {
   display: inline-block;
   margin-top: 1.5rem;
-  padding: 0.5rem 2rem;
+  padding: 0.9rem 2rem;
   color: white;
   text-decoration: none;
   background-color: #ff5959;
@@ -84,7 +85,7 @@ img {
   padding: 2rem 1.5rem;
 }
 .first-third {
-  background-color: #eef6f7;
+  background-color: #e5f1f3;
 }
 .second-third {
   background-color: #ffefef;
@@ -92,9 +93,20 @@ img {
 .third-third {
   background-color: #fff4d6;
 }
+.spc-img,
+.txt-div {
+  margin-top: 3rem;
+}
 .spc-img {
   width: 35%;
 }
 .txt-div {
-  width: 60%;
+  width: 58%;
+}
+.spc-head {
+  width: 50%;
+  padding: 1rem 5rem 0 0;
+  color: #333333;
+  font-size: 36px;
+  font-weight: bold;
 }
