@@ -26,6 +26,7 @@ img {
   align-items: baseline;
 }
 .main-head {
+  padding-left: 1rem;
   font-family: "Yeseva One", cursive;
   font-size: 60px;
   font-weight: normal;
@@ -109,4 +110,29 @@ img {
   color: #333333;
   font-size: 36px;
   font-weight: bold;
+}
+.build-head {
+  color: #000;
+  font-size: 48px;
+  font-weight: bold;
+}
+footer {
+  text-align: center;
+  background-color: #0b0d17;
+  color: white;
+}
+.foot-head {
+  font-family: "Lobster", cursive;
+  font-size: 36px;
+  font-weight: normal;
+  padding-top: 3rem;
+}
+.foot-col {
+  color: #ff5959;
+}
+.foot-para {
+  color: #d9dbe1;
+  font-family: "Manrope", sans-serif;
+  font-size: 14px;
+  padding: 1rem 0 3rem 0;
 }
